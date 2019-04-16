@@ -4,9 +4,9 @@ This project is a C# Console application that:
 <li>Creates a Batch Pool using Custom Images
 <li>Creates a Job
 <li>Submits a Task with a Resource File from Blob Storage
-<ul>
+</ul>
 Most code is in BatchAgent.cs
-  <h3>Pre-requisites</h3>
+<h3>Pre-requisites</h3>
 <ol>
 <li>Batch Account Created
 <li>Storage Account v2 Created. Hierarchical namespaces should be disabled. This account will be used to upload a Resource File for the Batch Tasks.
