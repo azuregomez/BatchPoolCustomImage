@@ -1,4 +1,4 @@
-<h3>Azure Batch with Custom Images</h3>
+<h3>Azure Batch with Custom Images and Resource File</h3>
 This project is a C# Console application that:
 <ul>
 <li>Creates a Batch Pool using Custom Images
