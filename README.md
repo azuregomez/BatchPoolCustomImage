@@ -1,4 +1,4 @@
-<h3>Azure Batch with Custom Images<h3>
+<h3>Azure Batch with Custom Images</h3>
 This project is a C# Console application that:
 <ul>
 <li>Creates a Batch Pool using Custom Images
@@ -6,7 +6,7 @@ This project is a C# Console application that:
 <li>Submits a Task with a Resource File from Blob Storage
 <ul>
 Most code is in BatchAgent.cs
-<h3>Pre-requisites
+  <h3>Pre-requisites</h3>
 <ol>
 <li>Batch Account Created
 <li>Storage Account v2 Created. Hierarchical namespaces should be disabled. This account will be used to upload a Resource File for the Batch Tasks.
