@@ -29,6 +29,7 @@ The Submitted Task opens a cmd and just displays the content of the resource fil
 <li>Update App.config with your settings.
 <li>Modify the cmd line to invoke your code. The resource file will be in the working directory.
 </ol>
+<hr>
 Batch API Basics:<br>
 https://docs.microsoft.com/en-us/azure/batch/batch-api-basics#azure-storage-account<br>
 Quickstart with API:<br>
