@@ -40,4 +40,6 @@ https://docs.microsoft.com/en-us/azure/batch/batch-custom-images<br>
 Creating and Using Resource Files:<br>
 https://docs.microsoft.com/bs-latn-ba/azure/batch/resource-files
 Task dependencies:<br>
-https://docs.microsoft.com/en-us/azure/batch/batch-task-dependencies
+https://docs.microsoft.com/en-us/azure/batch/batch-task-dependencies<br>
+Batch Explorer:<br>
+https://azure.github.io/BatchExplorer/
