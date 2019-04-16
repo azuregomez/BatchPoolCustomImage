@@ -10,7 +10,8 @@ Most code is in BatchAgent.cs
 <h3>Pre-requisites</h3>
 <ol>
 <li>Batch Account Created with Batch Service Pool Allocation Mode<br>
-https://docs.microsoft.com/en-us/azure/batch/batch-account-create-portal
+https://docs.microsoft.com/en-us/azure/batch/batch-account-create-portal<br>
+https://github.com/Azure/azure-quickstart-templates/blob/master/101-batchaccount-with-storage/azuredeploy.json
 <li>Storage Account v2 Created. Hierarchical namespaces should be disabled. This account will be used to upload a Resource File for the Batch Tasks.
 <li>Asscociate the Storage Account with the Batch Account in the batch account storage account tab.
 <li>Azure Active Directory Web/API App Registration created. This creates a Service Principal to be used by the code. You will need the application Id and Key.   The Batch client API must use AAD authentication in order to use custom images.
