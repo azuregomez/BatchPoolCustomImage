@@ -10,6 +10,7 @@ Most code is in BatchAgent.cs
 <ol>
 <li>Batch Account Created
 <li>Storage Account v2 Created. Hierarchical namespaces should be disabled. This account will be used to upload a Resource File for the Batch Tasks.
+<li>Asscociate the Storage Account with the Batch Account in the batch account storage account tab.
 <li>Azure Active Directory Web/API App Registration created. This creates a Service Principal to be used by the code. You will need the application Id and Key.
 <li>VM Image created from snapshot.  This is used by the code to create a Batch Pool with Custom Images.  To create an image, a VM needs to run sysprep, snapshotted and then image can be created. There is a Powershell image.ps1 included in BatchApp/Powershell that creates snapshot an image after SYSPREP.
 <li>Contributor Role Assignment on the Batch Account for the created AAD App Regisrtation.
