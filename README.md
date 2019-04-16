@@ -16,4 +16,11 @@ Most code is in BatchAgent.cs
 <li>Contributor AAD Role Assignment on the VM Image for the created AAD Registration. This is also included in the Powershell image.ps1.
 <li>A resource file created in your local system. This will be uploaded to blob storage by the code and from blob storage deployed to the Batch Nodes.
 </ol>
-To run the code you will have to update App.config after meeting the pre-requisites.
+The Submitted Task opens a cmd and just displays the content of the resource file.
+<h3>To use this sample code</h3>
+<ol>
+<li>Load whatever application and code you need to run on the VM that will become a custom image.
+<li>Meet the pre-requisites.
+<li>Update App.config with your settings.
+<li>Modify the cmd line to invoke your code. The resource file will be in the working directory.
+</ol>
