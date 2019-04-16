@@ -4,6 +4,7 @@ This project is a C# Console application that:
 <li>Creates a Batch Pool using Custom Images
 <li>Creates a Job
 <li>Submits a Task with a Resource File from Blob Storage
+<li>The resource file is copied to the node's working directory.  Which is at D:\batch\tasks\workitems under jobdirectories for jobid, task id and wd. Something like this: \Job636909490764590547\job-1\task636909490827864943\wd
 </ul>
 Most code is in BatchAgent.cs
 <h3>Pre-requisites</h3>
