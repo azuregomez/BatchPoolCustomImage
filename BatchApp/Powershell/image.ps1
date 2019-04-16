@@ -14,4 +14,3 @@ $snapshot = Get-AzSnapshot -ResourceGroupName $rgName -SnapshotName $snapshotNam
 $imageConfig = New-AzImageConfig -Location $location
 $imageConfig = Set-AzImageOsDisk -Image $imageConfig -OsState Generalized -OsType Windows -SnapshotId $snapshot.Id
 New-AzImage -ImageName $imageName -ResourceGroupName $rgName -Image $imageConfig
-get-azstorageaccount
