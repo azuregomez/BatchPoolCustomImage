@@ -19,7 +19,7 @@ https://github.com/Azure/azure-quickstart-templates/blob/master/101-batchaccount
 https://docs.microsoft.com/en-us/azure/virtual-machines/windows/snapshot-copy-managed-disk<br>
 https://docs.microsoft.com/en-us/azure/virtual-machines/windows/capture-image-resource#create-an-image-from-a-snapshot-using-powershell
 <li>Contributor Role Assignment on the Batch Account for the created AAD App Regisrtation.
-<li>Contributor AAD Role Assignment on the VM Image for the created AAD Registration. This is also included in the Powershell image.ps1.
+<li>Contributor Role Assignment on the VM Image for the created AAD Registration. This is also included in the Powershell image.ps1.
 <li>A resource file created in your local system. This will be uploaded to blob storage by the code and from blob storage deployed to the Batch Nodes.
 </ol>
 The Submitted Task opens a cmd and just displays the content of the resource file.
