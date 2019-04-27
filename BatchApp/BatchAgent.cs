@@ -77,13 +77,7 @@ namespace BatchApp
                     targetDedicatedComputeNodes: _config.Workers,
                     virtualMachineSize: vmsize,
                     virtualMachineConfiguration: vmc);
-                // Specify the application and version to install on the compute nodes
-                pool.ApplicationPackageReferences = new List<ApplicationPackageReference>
-                {
-                    new ApplicationPackageReference {
-                        ApplicationId = "NewtonSoftJson",
-                        Version = "1.0" }
-                };
+
                 pool.Commit();
                 
             }
