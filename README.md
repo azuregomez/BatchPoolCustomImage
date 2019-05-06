@@ -38,7 +38,7 @@ https://docs.microsoft.com/en-us/azure/batch/quick-run-dotnet<br>
 Batch with Custom Images:<br>
 https://docs.microsoft.com/en-us/azure/batch/batch-custom-images<br>
 Creating and Using Resource Files:<br>
-https://docs.microsoft.com/bs-latn-ba/azure/batch/resource-files
+https://docs.microsoft.com/bs-latn-ba/azure/batch/resource-files<br>
 Task dependencies:<br>
 https://docs.microsoft.com/en-us/azure/batch/batch-task-dependencies<br>
 Batch Explorer:<br>
